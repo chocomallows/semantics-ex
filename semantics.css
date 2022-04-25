@@ -1,6 +1,17 @@
-* {
-    font-family: Open-sans;
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('opensans-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
+
+
+ /* * {
+    font-family: ;
+}  */
 
 body {
     max-width: 90%;
@@ -81,3 +92,9 @@ tr:nth-of-type(odd) {
 tr:nth-of-type(even) {
       background-color:white;
     }
+
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+}
